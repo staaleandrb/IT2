@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lektor Studie</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="stilark.css">
+
+</head>
+<body>
+	<div id="registrering">
+		<table border="0">
+			<tr>
+				<td>
+				
+			<table border="1">
+				<tr>
+					<td>Fag:</td>
+					<td>Standpunkt:</td>
+					<td>Eksamen</td>
+				</tr>
+				<tr>
+					<td><div class="fag" value="Engelsk">Engelsk</div></td>
+					<td>
+						<select class="standpunkt" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>
+					<td>
+						<select class="eksamen" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>	
+				</tr>
+				<tr>
+					<td><div class="fag">Geografi</div></td>
+					<td>
+						<select class="standpunkt" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>
+					<td>
+						<select class="eksamen" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>	
+				</tr>
+				<tr>
+					<td><div class="fag">Historie</div></td>
+					<td>
+						<select class="standpunkt" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>
+					<td>
+						<select class="eksamen" onchange="Registrer()">
+							<option value="0"> </option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+					</td>	
+				</tr>
+				<tr>
+						<td>Ekstrapoeng</td>
+						<td colspan="2"><input type="text" id="ekstra" onchange="Registrer()" Value="0"></td>
+				</tr>	
+			</table>
+			
+			<div id="fagoversikt"></div>
+			<div id="snittkarakter"></div>
+			<div id="totalpoengsum"></div>
+		</div>
+	</td>
+
+	</tr>
+</table>
+</body>
+</html>
